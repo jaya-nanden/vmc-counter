@@ -1,0 +1,96 @@
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #676FA3;
+    color: white;
+}
+
+.header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 850px) {
+    .header h1 {
+        font-size: 30px;
+        /* position: absolute; */
+        /* top: 0; */
+        /* bottom: 0; */
+    }
+}
+
+#user-icon {
+    color: black;
+}
+
+.user>button {
+    background-color: #EEF2FF;
+    border: none;
+}
+
+.user>button:hover {
+    background-color: #CDDEFF;
+    border: none;
+}
+
+.user>button:active {
+    background-color: #CDDEFF;
+}
+
+.user>button:focus {
+    background-color: #CDDEFF;
+}
+
+
+.drop-item>button {
+    background-color: #CDDEFF;
+    border: none;
+    color: black;
+    width: 100%;
+}
+
+.drop-item>button:hover {
+    background-color: #676FA3;
+    border: none;
+    color: white;
+}
+
+.drop-item>button:active {
+    background-color: #676FA3;
+    color: white;
+}
+
+.drop-item>button:focus {
+    background-color: #676FA3;
+    color: white;
+}
+
+
+
+#my-dropdown-toggle::after {
+    content: none;
+}
+
+.header-nav {
+    margin: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.date-selection {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.goal {
+    font-size: 20px;
+    font-weight: 700;
+}

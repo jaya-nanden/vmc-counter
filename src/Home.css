@@ -1,0 +1,53 @@
+.my-container {
+    color: white;
+}
+
+.header {
+    min-height: 10vh;
+}
+
+.main-section {
+    min-height: 80vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 100%;
+    background-color: #CDDEFF;
+}
+
+.spinner {}
+
+/* Footer */
+.footer {
+    min-height: 10vh;
+    background-color: #676FA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Goal Setting Modal */
+
+
+.goal-modal>button {
+    background-color: #676FA3;
+    border: none;
+}
+
+.goal-modal>button:hover {
+    background-color: #CDDEFF;
+    border: none;
+    color: black;
+}
+
+.goal-modal>button:active {
+    background-color: #CDDEFF;
+    color: black;
+}
+
+.goal-modal>button:focus {
+    background-color: #CDDEFF;
+    color: black;
+}
