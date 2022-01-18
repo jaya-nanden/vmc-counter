@@ -1,7 +1,0 @@
-{
-  "projects": {
-    "default": "vmc-counter",
-    "vmc-counter": "vmc-counter"
-  },
-  "targets": {}
-}
